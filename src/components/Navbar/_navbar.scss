@@ -1,0 +1,66 @@
+.navbar{
+  grid-column: content-start/content-end;
+  grid-row: 1/span 1;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 0 0;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+  &__logo-box{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  &__logoName{
+    font-weight: 700;
+    color:$primary-color;
+    ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 0.5rem;
+
+  }
+  &__navbar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:40rem;
+    height: 100%;
+    
+  }
+  &__items{
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(61,61,61,1);
+    font-size: 2rem;
+    height: 100%;
+    padding-bottom: 1rem;
+
+    
+  }
+  &__btnBox{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:25rem;
+    padding-bottom: 1rem;
+    
+  }
+  &__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  &__loginIcon{
+    width: 1.7rem;
+    margin-right: 1rem;
+   
+  }
+}

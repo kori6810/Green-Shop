@@ -1,0 +1,38 @@
+.sidebar{
+  grid-column: content-start/span 1;
+  grid-row: 3/ span 1;
+  background-color: $bg-color;
+  padding: 1.5rem 2.5rem;
+
+  
+  &__catigory{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2.5rem 1rem;
+    
+  }
+  &__price-range-box{
+    padding: 2.5rem 1rem;
+  }
+  &__sale-box{
+    background-image: url(../../../img/salebg.jpeg);
+    background-size: cover;
+    height: 45rem;
+    text-align: center;
+
+  }
+  &__sale-bg{
+    width: 38rem;
+  }
+  &__sale-txt{
+    color:$color-white;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  &__sale-flower{
+    width: 20rem;
+  }
+}

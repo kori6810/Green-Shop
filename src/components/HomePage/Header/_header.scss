@@ -1,0 +1,37 @@
+.header{
+  grid-column: content-start/content-end;
+  grid-row: 2/span 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: $bg-color;
+  &__content-box{
+    width: 30%;
+    padding: 7rem 3rem;
+    
+  }
+  &__welcome{
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+
+  }
+  
+  &__img-box{
+    width: 30%;
+    position: relative;
+    
+
+
+  }
+  &__imgSmall{
+    position: absolute;
+    width: 13.5rem;
+    aspect-ratio: 1;
+    top: 35rem;
+    left: 5rem;
+
+  }
+}

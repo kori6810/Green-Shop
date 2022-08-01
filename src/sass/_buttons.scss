@@ -1,0 +1,14 @@
+.btn{
+  &__green{
+    padding: 1rem 4rem;
+    background-color: $primary-color;
+    color: $color-white;
+    border: none;
+    border-radius: 5px;
+    // font-family: 'Cera Pro';
+    // font-style: normal;
+    font-weight: 700;
+    font-size: 16px;    
+  }
+
+}

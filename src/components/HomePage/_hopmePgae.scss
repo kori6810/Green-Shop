@@ -1,0 +1,6 @@
+.homepage{
+  display: grid;
+  grid-template-columns:[main-start] 10rem [content-start] repeat(4, 1fr) [content-end] 10rem [main-end];
+  grid-template-rows: min-content;
+  grid-column: main-start/main-end;
+}

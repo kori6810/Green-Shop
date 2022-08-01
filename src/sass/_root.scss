@@ -1,0 +1,20 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#root{
+  display: grid;
+  grid-template-columns:[main-start] 10rem [content-start] repeat(4, 1fr) [content-end] 10rem [main-end];
+  grid-template-rows: min-content;
+  color:rgba(61, 61, 61, 1)
+  ;
+}
+.onProcesses{
+  grid-column: content-start/content-end;
+  grid-row: 2/ span 1;
+}

@@ -1,0 +1,57 @@
+.primary-heading{
+  font-size: 7rem;
+  line-height: 7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  // width: 60%;
+  // display: inline-block;
+  &--green{
+    display: inline-block;
+    color: $primary-color;
+    
+  }
+  
+  
+}
+.heading4{
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.6rem;
+  text-transform: capitalize;
+}
+.heading5{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-decoration: none;
+  color: rgba(61,61,61,1);
+}
+
+.text{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #727272;
+  
+}
+.price{
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  color: $primary-color;
+}
+.active{
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(61,61,61,1);
+  font-size: 2rem;
+  height: 100%;
+  padding-bottom: 1rem;
+  
+}
